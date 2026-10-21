@@ -14,7 +14,7 @@ public class CoffeeFueledStudyStrategy implements StudyStrategy {
     public String studyTopic(String topic, int availableMinutes) {
         int points = calculateMasteryPoints(availableMinutes);
         return String.format(
-                "[Brew Coffee Strategy] Spent %d min brewing hot coffee, boosted alertness, " +
+                "Brew Coffee Strategy Spent %d min brewing hot coffee, boosted alertness, " +
                         "and studied '%s' at high speed -> Earned %d mastery points.",
                 BREW_TIME_MINUTES, topic, points
         );

@@ -15,7 +15,7 @@ public class SmokeBreakPacedStudyStrategy implements StudyStrategy {
     public String studyTopic(String topic, int availableMinutes) {
         int points = calculateMasteryPoints(availableMinutes);
         return String.format(
-                "[Smoke & Breathe Strategy] Stepped outside for %d min (10-15 min fresh-air reset), " +
+                "Smoke and Breathe Strategy Stepped outside for %d min (10-15 min fresh-air reset), " +
                         "cleared the mind, and studied '%s' -> Earned %d mastery points.",
                 SMOKE_BREAK_MINUTES, topic, points
         );
